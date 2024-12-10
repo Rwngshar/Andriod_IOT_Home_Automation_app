@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Not connected"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+
+    <!-- Horizontal LinearLayout for SwitchOn1 and SwitchOn2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Switch
+            android:id="@+id/switchOn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON 1"
+            android:layout_marginEnd="16dp" />
+
+        <Switch
+            android:id="@+id/switchOn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON 2" />
+    </LinearLayout>
+
+
+    <!-- Horizontal LinearLayout for SwitchOn3 and SwitchOn4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <Switch
+            android:id="@+id/switchOn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON 3"
+            android:layout_marginEnd="16dp" />
+
+        <Switch
+            android:id="@+id/switchOn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ON 4" />
+    </LinearLayout>
+
+    <!-- Vertical LinearLayout for SwitchOnAll and SwitchOffAll -->
+    <Button
+        android:id="@+id/buttonOnL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON L"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonOnS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON S"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonOnAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON All"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/buttonOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+
+
+</LinearLayout>
