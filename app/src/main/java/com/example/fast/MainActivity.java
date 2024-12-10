@@ -20,9 +20,9 @@ import java.io.OutputStream;
 import java.util.UUID;
 
 public class MainActivity extends AppCompatActivity {
-
-    private static final String HC05_MAC_ADDRESS = "00:23:10:00:A5:DF";
-    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
+  
+    private static final String HC05_MAC_ADDRESS = "HC -05 MAC Address";  //  HC -05  MAC address 
+    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");    //HC - 05 UUID 
     private static final int REQUEST_BLUETOOTH_PERMISSION = 1;
 
     private BluetoothAdapter bluetoothAdapter;
